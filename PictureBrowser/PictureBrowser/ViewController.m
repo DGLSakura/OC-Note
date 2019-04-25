@@ -17,7 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
     UIButton *pictureBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     pictureBtn.center = self.view.center;
@@ -26,6 +25,7 @@
     [pictureBtn setBackgroundImage:[UIImage imageNamed:@"flower.jpg"] forState:UIControlStateNormal];
     [pictureBtn addTarget:self action:@selector(handlePictureAction) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:pictureBtn];
+    
 }
 
 - (void) handlePictureAction {
