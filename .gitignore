@@ -1,0 +1,47 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+
+# Exclude OS X folder attributes
+.DS_Store
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+## Other
+*.moved-aside
+*.xcuserstate
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.idea
+.svn
+bjc-arc
+.clang-format
+
+## fastlane
+**/fastlane/README.md
+**/fastlane/report.xml
+
+tztMobileApp_HTSC.xcscmblueprint
+tztMobileApp_HTSC.xcscmblueprintbuild_adhoc.sh
+
+## sonarqube
+.sonar/
+.scannerwork/
+Example/compile_commands.json
+Example/xcodebuild.log
+Index/
