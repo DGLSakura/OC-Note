@@ -15,6 +15,8 @@
 		3B2B561022718EBF006CB160 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B560F22718EBF006CB160 /* main.m */; };
 		3B2B561A22718EBF006CB160 /* PictureBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B561922718EBF006CB160 /* PictureBrowserTests.m */; };
 		3B2B562522718EBF006CB160 /* PictureBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B562422718EBF006CB160 /* PictureBrowserUITests.m */; };
+		3B2B563322718F4C006CB160 /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B563222718F4C006CB160 /* flower.jpg */; };
+		3B2B563622718F6D006CB160 /* DGLPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B563522718F6D006CB160 /* DGLPictureView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		3B2B562022718EBF006CB160 /* PictureBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B2B562422718EBF006CB160 /* PictureBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureBrowserUITests.m; sourceTree = "<group>"; };
 		3B2B562622718EBF006CB160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B2B563222718F4C006CB160 /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = "<group>"; };
+		3B2B563422718F6D006CB160 /* DGLPictureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGLPictureView.h; sourceTree = "<group>"; };
+		3B2B563522718F6D006CB160 /* DGLPictureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGLPictureView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				3B2B560122718EBF006CB160 /* AppDelegate.m */,
 				3B2B560322718EBF006CB160 /* ViewController.h */,
 				3B2B560422718EBF006CB160 /* ViewController.m */,
+				3B2B563422718F6D006CB160 /* DGLPictureView.h */,
+				3B2B563522718F6D006CB160 /* DGLPictureView.m */,
+				3B2B563222718F4C006CB160 /* flower.jpg */,
 				3B2B560622718EBF006CB160 /* Main.storyboard */,
 				3B2B560922718EBF006CB160 /* Assets.xcassets */,
 				3B2B560B22718EBF006CB160 /* LaunchScreen.storyboard */,
@@ -238,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2B563322718F4C006CB160 /* flower.jpg in Resources */,
 				3B2B560D22718EBF006CB160 /* LaunchScreen.storyboard in Resources */,
 				3B2B560A22718EBF006CB160 /* Assets.xcassets in Resources */,
 				3B2B560822718EBF006CB160 /* Main.storyboard in Resources */,
@@ -266,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B2B560522718EBF006CB160 /* ViewController.m in Sources */,
+				3B2B563622718F6D006CB160 /* DGLPictureView.m in Sources */,
 				3B2B561022718EBF006CB160 /* main.m in Sources */,
 				3B2B560222718EBF006CB160 /* AppDelegate.m in Sources */,
 			);
