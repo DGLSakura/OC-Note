@@ -6,9 +6,6 @@
 build/
 DerivedData/
 
-# Exclude OS X folder attributes
-.DS_Store
-
 ## Various settings
 *.pbxuser
 !default.pbxuser
@@ -19,29 +16,51 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
-*.xccheckout
+
 ## Other
 *.moved-aside
-*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
 
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
-*.idea
-.svn
-bjc-arc
-.clang-format
+*.dSYM.zip
+*.dSYM
 
-## fastlane
-**/fastlane/README.md
-**/fastlane/report.xml
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+#
+# Pods/
+#
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+*.xcworkspace
 
-tztMobileApp_HTSC.xcscmblueprint
-tztMobileApp_HTSC.xcscmblueprintbuild_adhoc.sh
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
 
-## sonarqube
-.sonar/
-.scannerwork/
-Example/compile_commands.json
-Example/xcodebuild.log
-Index/
+Carthage/Build
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+#
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
