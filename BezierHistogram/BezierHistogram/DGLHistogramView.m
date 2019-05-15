@@ -19,11 +19,6 @@
 #define COORDINATE_X_LENGTH kIphone6Scale(280)  //X轴长度
 #define INTERVAL_Y          kIphone6Scale(5)    //Y轴间距
 
-#define LabelColor  [HTColor colorWithHex:0x3E3E3E]
-#define LineColor  [HTColor colorWithHex:0xC3C3C3]
-#define KnownColor  [HTColor colorWithHex:0x5685E4]
-#define ForecastColor [HTColor colorWithHex:0xBBCEF4]
-
 static const NSInteger ImaginaryCount = 4; //虚线的数量
 
 @implementation DGLHistogramModel
