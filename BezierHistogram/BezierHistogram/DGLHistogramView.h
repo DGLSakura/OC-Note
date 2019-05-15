@@ -1,12 +1,10 @@
 //
-//  GDLHistogramView.h
+//  DGLHistogramView.h
 //  BezierHistogram
 //
-//  Created by DonLee on 2019/5/8.
+//  Created by DonLee on 2019/5/14.
 //  Copyright © 2019 DonLee. All rights reserved.
 //
-
-
 /*
  UIBezierPath ：画贝塞尔曲线的path类
  UIBezierPath定义 ： 贝赛尔曲线的每一个顶点都有两个控制点，用于控制在该顶点两侧的曲线的弧度。
@@ -42,19 +40,16 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GDLHistogramView : UIView
-//已知
-@property (nonatomic, nonatomic, nullable, copy) NSString *knownString;
-//预测
-@property (nonatomic, nullable, copy) NSString *forecastString;
-//初始化画布
-- (instancetype)initWithFrame:(CGRect)frame;
-/**
- 加载柱状图数据
- @param targets 数据数组
- */
-- (void)configDataWithTargets:(NSArray *)targets;
+@interface DGLHistogramModel : NSObject
+@property (nonatomic, copy) NSString *knownStr; //已知
+@property (nonatomic, copy) NSString *forecastStr; //预测
+@property (nonatomic, copy) NSString *unitStr; //单位
+@property (nonatomic, strong) NSArray *dataSourceArr; //柱状图数据源数据
+@end
 
+@interface DGLHistogramView : UIView
+
+- (void)updateDataWithHistogramMode:(DGLHistogramModel *)model;
 @end
 
 NS_ASSUME_NONNULL_END

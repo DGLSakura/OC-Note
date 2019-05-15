@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B219966228A9416005FA0BA /* DGLHistogramView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B219965228A9416005FA0BA /* DGLHistogramView.m */; };
 		3B9D9A4E22826E2900F6481A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9D9A4D22826E2900F6481A /* AppDelegate.m */; };
 		3B9D9A5122826E2900F6481A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9D9A5022826E2900F6481A /* ViewController.m */; };
 		3B9D9A5422826E2900F6481A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9D9A5222826E2900F6481A /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		3B9D9A5C22826E2A00F6481A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9D9A5B22826E2A00F6481A /* main.m */; };
 		3B9D9A6622826E2A00F6481A /* BezierHistogramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9D9A6522826E2A00F6481A /* BezierHistogramTests.m */; };
 		3B9D9A7122826E2A00F6481A /* BezierHistogramUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9D9A7022826E2A00F6481A /* BezierHistogramUITests.m */; };
-		3B9D9A8022826EB900F6481A /* GDLHistogramView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9D9A7F22826EB900F6481A /* GDLHistogramView.m */; };
 		5FC5558C5FB779FDD9335644 /* libPods-BezierHistogram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A33D83732DD93112F221324 /* libPods-BezierHistogram.a */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,8 @@
 /* Begin PBXFileReference section */
 		0BC20324850D14DB95A8D181 /* Pods-BezierHistogram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BezierHistogram.release.xcconfig"; path = "Pods/Target Support Files/Pods-BezierHistogram/Pods-BezierHistogram.release.xcconfig"; sourceTree = "<group>"; };
 		3A33D83732DD93112F221324 /* libPods-BezierHistogram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BezierHistogram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B219964228A9416005FA0BA /* DGLHistogramView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGLHistogramView.h; sourceTree = "<group>"; };
+		3B219965228A9416005FA0BA /* DGLHistogramView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGLHistogramView.m; sourceTree = "<group>"; };
 		3B9D9A4922826E2900F6481A /* BezierHistogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BezierHistogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9D9A4C22826E2900F6481A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3B9D9A4D22826E2900F6481A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,8 +57,6 @@
 		3B9D9A6C22826E2A00F6481A /* BezierHistogramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierHistogramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9D9A7022826E2A00F6481A /* BezierHistogramUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierHistogramUITests.m; sourceTree = "<group>"; };
 		3B9D9A7222826E2A00F6481A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B9D9A7E22826EB900F6481A /* GDLHistogramView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDLHistogramView.h; sourceTree = "<group>"; };
-		3B9D9A7F22826EB900F6481A /* GDLHistogramView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDLHistogramView.m; sourceTree = "<group>"; };
 		848C5205FCCE4CD786AC88B1 /* Pods-BezierHistogram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BezierHistogram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BezierHistogram/Pods-BezierHistogram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,8 +115,8 @@
 				3B9D9A4D22826E2900F6481A /* AppDelegate.m */,
 				3B9D9A4F22826E2900F6481A /* ViewController.h */,
 				3B9D9A5022826E2900F6481A /* ViewController.m */,
-				3B9D9A7E22826EB900F6481A /* GDLHistogramView.h */,
-				3B9D9A7F22826EB900F6481A /* GDLHistogramView.m */,
+				3B219964228A9416005FA0BA /* DGLHistogramView.h */,
+				3B219965228A9416005FA0BA /* DGLHistogramView.m */,
 				3B9D9A5222826E2900F6481A /* Main.storyboard */,
 				3B9D9A5522826E2A00F6481A /* Assets.xcassets */,
 				3B9D9A5722826E2A00F6481A /* LaunchScreen.storyboard */,
@@ -318,7 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B9D9A5122826E2900F6481A /* ViewController.m in Sources */,
-				3B9D9A8022826EB900F6481A /* GDLHistogramView.m in Sources */,
+				3B219966228A9416005FA0BA /* DGLHistogramView.m in Sources */,
 				3B9D9A5C22826E2A00F6481A /* main.m in Sources */,
 				3B9D9A4E22826E2900F6481A /* AppDelegate.m in Sources */,
 			);
